@@ -65,26 +65,26 @@
 <form action="/crear-usuario" method="post" class="form-register">
 
     <label for="nombre-completo" class="label-form"></label>
-    <input type="text" name="nombre-completo" id="nombre-completo" placeholder="Nombre y apellido" class="input-separa" required>
+    <input type="text" name="nombre-completo" id="nombre-completo" placeholder="Nombre y apellido" class="entrada-dato" required>
 
     <label for="nombre-usuario" class="label-form"></label>
-    <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" class="input-separa" required >
+    <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" class="entrada-dato" required >
 
-    <label for="categorias-interes" class="label-form">Fecha de nacimiento</label>
-    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" placeholder="mm/dd/yyyy" class="input-separa" required>
+    <label for="fecha-nacimiento" class="label-form">Fecha de nacimiento</label>
+    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento"  class="entrada-dato" required>
 
     <label for="domicilio" class="label-form"></label>
-    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="input-separa" class="input-separa" required>
+    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="entrada-dato" class="entrada-dato" required>
 
         <ul class="lista-form">
             <label for="categorias-interes" class="label-form">Perfil de usuario:</label>
 
                 <li class="item-lista">
-            <input type="radio" name="perfil-usuario" id="perfil-usuario-comprar" value="Comprador" required> 
+            <input type="radio" name="perfil-usuario" id="usuario-comprador" value="Comprador" required> 
             <label for="perfil-usuario-comprar" class="relleno-form">Comprador</label>
                 </li>
                 <li class="item-lista"></li>
-            <input type="radio" name="perfil-usuario" id="perfil-usuario-vender" value="Vendedor" required>
+            <input type="radio" name="perfil-usuario" id="usuario-vendedor" value="Vendedor" required>
             <label for="perfil-usuario-vender" class="relleno-form">Vendedor</label>
                 </li>
         </ul>
@@ -120,16 +120,16 @@
 
     </ul>
 
-    <label for="foto-usuario" class="label-form">Foto de usuario:</label>
-    <input type="file" name="foto-usuario" id="foto-usuario" accept=".jpg" class="input-separa" required>
+    <label for="foto-usuario" class="label-form">Foto</label>
+    <input type="file" name="foto-usuario" id="foto-usuario" accept=".jpg" class="entrada-dato" required>
 
     <label for="contraseña" class="label-form">Contraseña</label>
-    <input type="password" name="contraseña" id="contraseña" placeholder="Elegí tu contraseña" class="input-separa">
+    <input type="password" name="contraseña" id="contraseña" placeholder="Elegí tu contraseña" class="entrada-dato">
 
     <label for="contraseña-2" class="label-form">Repetir contraseña</label>
-    <input type="password" name="contraseña-2" id="contraseña-2" placeholder="Repetir contraseña" class="input-separa">
+    <input type="password" name="contraseña-2" id="contraseña-2" placeholder="Repetir contraseña" class="entrada-dato">
 
-    <nav class="botonera">
+    <nav class="botones">
         <button type="submit">Enviar</button>
         <button type="reset">Cancelar</button>
     </nav>

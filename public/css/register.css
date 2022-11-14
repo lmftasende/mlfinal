@@ -18,7 +18,7 @@
     padding: 0;
 }
 
-.input-separa{
+.entrada-dato{
     display: block;
     border: #ebebeb;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -33,7 +33,7 @@
     list-style: none;
 }
 
-.botonera{
+.botones{
     width: 90%;
     margin: 3rem;
 }
