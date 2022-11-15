@@ -2,10 +2,8 @@
    
     background-color: #EAC926;
     padding: 1.25rem;
-    position:fixed;
     top: 0;
     width: 100%; 
-    z-index: 9;
 }
 
 .burger-menu {
