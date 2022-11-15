@@ -1,4 +1,5 @@
 .banner{
+    margin-top: 240px;
     max-width: 100%;
     
 }
@@ -20,6 +21,10 @@ main{
 .articulo:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     transition: 250ms;
+}
+
+.articulo:hover .nombre-producto{
+    opacity: 1;
 }
 
 .articulo {
@@ -91,7 +96,7 @@ main{
     color: rgb(1, 1, 1);
     font-size: 1rem;
     margin: 5% 5% ;
-    opacity: 0.8;
+    opacity: 0;
     transition: 250ms;
     
 }
