@@ -1,7 +1,8 @@
 .main-header{
-   
+    position:sticky;
+    z-index: 9;
     background-color: #EAC926;
-    padding: 1.25rem;
+    padding: 1rem;
     top: 0;
     width: 100%; 
 }
@@ -26,7 +27,7 @@
 
 }
 
-.logo{
+.m-h-logo{
     width: 40vw;
 }
 
@@ -93,7 +94,7 @@
 }
 
 @media (min-width: 1028px){
-    .logo{
+    .m-h-logo{
         width: 30vw;
     }
     .copy-header{
